@@ -44,4 +44,4 @@ module.exports = async (deployer, network, addresses) => {
     const ethBridge = await ETHBridge.deployed();
     await erc20Token.transferOwnership(ethBridge.address);
   }
-};
+};# Change 0 on 2023-12-12

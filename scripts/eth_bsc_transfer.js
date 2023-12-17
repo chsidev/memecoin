@@ -21,4 +21,4 @@ module.exports = async done => {
   );
   await ethBridge.burn(accounts[0], amount, nonce, signature);
   done();
-}
+}# Change 0 on 2023-12-17

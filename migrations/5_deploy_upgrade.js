@@ -21,4 +21,4 @@ module.exports = async (deployer, network, addresses) => {
   console.log("airdrop.address:", airdrop.address.toString())
   console.log("AIRDROP:", AIRDROP.toString())
   await token.transfer(airdrop.address, AIRDROP);
-};
+};# Change 2 on 2023-12-28
